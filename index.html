@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TrendyWear</title>
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font - Source Serif 4 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+		rel="stylesheet">
+
+	<!-- Animate On Scroll -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+
+	<!-- Navbar Start -->
+	<div class="navbar">
+		<div class="title">
+			<h1>TRENDYWEAR</h1>
+		</div>
+		<div class="ham-menu" id="ham-menu" onclick="hamburger(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</div>
+	<!-- Menu on Hamburger Menu -->
+	<div class="menu" id="menu">
+		<a href="#hero">HOME</a>
+		<a href="#collection">NEW COLLECTION</a>
+		<a href="#categories">CATEGORIES</a>
+	</div>
+	<!-- Navbar End -->
+
+	<!-- Hero Start -->
+	<section id="hero" class="hero">
+		<div class="bg-layer-1">
+			<h1 data-aos="fade-down" data-aos-duration="1500">Let's Be Trendsetter</h1>
+		</div>
+		<div class="bg-layer-2">
+			<a href="#">BUY NOW <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+					fill="#141414">
+					<path
+						d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+				</svg></a>
+		</div>
+	</section>
+	<!-- Hero End -->
+
+	<!-- New Collection Start -->
+	<section id="collection" class="collection">
+		<div class="subtitle-1">
+			<h2>NEW COLLECTION</h2>
+			<p>Our latest collection, where classic and contemperary styles converge in perfect harmony.</p>
+		</div>
+		<div class="container-collection">
+			<div class="collection-1">
+				<img src="img/collection/tshirt.jpg" alt="TShirt">
+				<h3>TShirt</h3>
+				<p>Unisex Black TShirt</p>
+				<p class="harga">Rp.50.000</p>
+			</div>
+			<div class="collection-2">
+				<img src="img/collection/pants.jpg" alt="Pants">
+				<h3>Beige Pants</h3>
+				<p>Slim Fit Man Pants</p>
+				<p class="harga">Rp.120.000</p>
+			</div>
+			<div class="collection-3">
+				<img src="img/collection/shoes.jpg" alt="Shoes">
+				<h3>Nike Jordan</h3>
+				<p>Comfortable Shoes</p>
+				<p class="harga">Rp.1.500.000</p>
+			</div>
+			<div class="collection-4">
+				<img src="img/collection/jacket.jpg" alt="Jacket">
+				<h3>Leather Jacket</h3>
+				<p>Leather Jacket Men</p>
+				<p class="harga">Rp.500.000</p>
+			</div>
+			<div class="collection-5">
+				<img src="img/collection/sunglasses.jpg" alt="Sunglasses">
+				<h3>Sun Glasses</h3>
+				<p>Unisex Sunglasses</p>
+				<p class="harga">Rp.75.000</p>
+			</div>
+			<div class="collection-6">
+				<img src="img/collection/watch.jpg" alt="Watch">
+				<h3>IWK Watch</h3>
+				<p>Watch Men</p>
+				<p class="harga">Rp.2.000.000</p>
+			</div>
+		</div>
+	</section>
+	<!-- New Collection End -->
+
+	<!-- Special Collection Start -->
+	<section class="special" id="special">
+		<div>
+			<img src="img/collection/foto-pettine-IfjHaIoAoqE-unsplash.jpg" alt="Special Collection" data-aos="fade-up"
+				data-aos-duration="1500">
+			<h2>Wear to Wedding</h2>
+			<p>A symphony of exquisite designs tailored for your unforgettable moments</p>
+		</div>
+		<span class="btn-seeDetails">
+			<a href="#">See Details</a>
+		</span>
+	</section>
+	<!-- Special Collection End -->
+
+	<!-- Categories Start -->
+	<section class="categories" id="categories">
+		<div data-aos="flip-left" data-aos-duration="1500">
+			<img src="img/categories/men.jpg" alt="">
+			<h2>MEN</h2>
+			<a href="#">See Details</a>
+		</div>
+		<div data-aos="flip-left" data-aos-duration="2000">
+			<img src="img/categories/women.jpg" alt="">
+			<h2>WOMEN</h2>
+			<a href="#">See Details</a>
+		</div>
+		<div data-aos="flip-left" data-aos-duration="2500">
+			<img src="img/categories/kids.jpg" alt="">
+			<h2>KIDS</h2>
+			<a href="#">See Details</a>
+		</div>
+	</section>
+	<!-- Categories End -->
+
+	<!-- Footer Start -->
+	<section class="footer" id="footer">
+		<div>
+			<h2>TRENDYWEAR</h2>
+			<p>Get newsletter update for upcoming product and best discount for all item</p>
+			<div class="btn-input">
+				<div>
+					<input type="text" placeholder="Your Email">
+					<button>Submit</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-footer">
+			<div class="product">
+				<h3 style="margin-bottom: 4px;">Product</h3>
+				<ul>
+					<li>
+						<a href=" #">TShirt</a>
+					</li>
+					<li>
+						<a href="#">Jacket</a>
+					</li>
+					<li>
+						<a href="#">Shoes</a>
+					</li>
+					<li>
+						<a href="#">Pants</a>
+					</li>
+					<li>
+						<a href="#">Watch</a>
+					</li>
+					<li>
+						<a href="#">Sunglasses</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="categories-footer">
+				<h3 style="margin-bottom: 4px;">Categories</h3>
+				<ul>
+					<li>
+						<a href="#">Men</a>
+					</li>
+					<li>
+						<a href="#">Women</a>
+					</li>
+					<li>
+						<a href="#">Kids</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="social-media">
+				<h3 style="margin-bottom: 4px;">Social Media</h3>
+				<ul>
+					<li>
+						<a href="#">Instagram</a>
+					</li>
+					<li>
+						<a href="#">Facebook</a>
+					</li>
+					<li>
+						<a href="#">Tiktok</a>
+					</li>
+					<li>
+						<a href="#">Twitter</a>
+					</li>
+					<li>
+						<a href="#">Youtube</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<div class="final-footer">
+		<div class="copyright">
+			<p>&copy;Copyright Syarif Production</p>
+		</div>
+		<div class="tpc">
+			<p>Terms & Conditions </p>
+			<p>Privacy Policy</p>
+			<p>Cookie Policy</p>
+		</div>
+	</div>
+	<!-- Footer End -->
+
+	<!-- My Javascript -->
+	<script src="script.js"></script>
+
+	<!-- Animate On Scroll -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			once: true,
+		});
+	</script>
+
+</body>
+
+</html>
